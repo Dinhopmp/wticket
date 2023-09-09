@@ -359,9 +359,9 @@ local function CreateOptions(Frame)
             end;
             __newindex = function(Self, Index, Value)
                 if Index == "Title" then
-                    Container.Title.Text = Value and tostring(Value) or "Button"
+                    Container.Title.Text = Value and tostring(Value) or "Button2"
                 elseif Index == "ButtonText" then
-                    Container.Button.Text = Value and tostring(Value) or "Button"
+                    Container.Button.Text = Value and tostring(Value) or "Button3"
                 end
                 Properties[Index] = Value
             end
